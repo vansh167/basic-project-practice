@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Crud from './CRUD/Crud'
+// import Crud from './CRUD/Crud'
+import Delete from './CRUD/delete'
 // import Try from './Practice/Try'
 // import Form from './Practice/form'
 // import Togal from './UseState/togal'
@@ -20,7 +21,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Array/> */}
     {/* <Counter/> */}
-    <Crud/>
+    {/* <Crud/> */}
+    <Delete/>
 {/* <Step1/> */}
    {/* <Form/> */}
       </StrictMode>,
