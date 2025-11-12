@@ -1,0 +1,121 @@
+
+:root {
+  --bg-color: #0d1117;
+  --card-bg: #161b22;
+  --table-header: #1f2937;
+  --hover-bg: #21262d;
+  --text-color: #ffffff;
+  --muted-text: #a0aec0;
+  --accent-blue: #3b82f6;
+  --accent-green: #10b981;
+  --accent-pink: #ec4899;
+  --accent-yellow: #facc15;
+  --border-color: #2d3748;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(213, 212, 212);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  min-height: 500px; 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--accent-blue);
+  text-shadow: 0 1px 4px rgba(117, 162, 234, 0.4);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: #36393f;
+  color: var(--text-color);
+  font-size: 16px;
+  margin-bottom: 25px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: var(--muted-text); 
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table thead {
+  background-color: var(--table-header);
+}
+
+table th,
+table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+  background-color: var(--hover-bg);
+  cursor: pointer;
+}
+
+.user-details {
+  border: 1px solid var(--accent-pink);
+  padding: 24px 30px;
+  border-radius: 12px;
+  background-color: #1f2937;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.2);
+}
+
+.user-details h3 {
+  margin-top: 0;
+  color: var(--accent-pink);
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.user-details p {
+  margin: 12px 0;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+strong {
+  color: var(--accent-yellow);
+}
