@@ -204,7 +204,7 @@
 
 
   //function expression
-// 
+//
 
 // let text = "JavaScript is fun"
 // console.log(text.length)
@@ -250,13 +250,75 @@
 // }
 // console.log(check(num));
 
-function factorialIterative(num) {
-  if (num < 0) return "Factorial not defined for negative numbers";
-  let result = 1;
-  for (let i = 1; i <= num; i++) {
-    result *= i;
-  }
-  return result;
-}
+// function factorialIterative(num) {
+//   if (num < 0) return "Factorial not defined for negative numbers";
+//   let result = 1;
+//   for (let i = 1; i <= num; i++) {
+//     result *= i;
+//   }
+//   return result;
+// }
 
-console.log(factorialIterative()); // Output: 120
+// console.log(factorialIterative()); // Output: 120
+
+
+
+
+// -<----------------------------------------->
+
+// function vansh(){
+//   console.log("Hello kartik");
+  
+// }
+// vansh();
+
+// function add(a, b) {
+//   return a + b;
+// }
+// function subtract(a, b) {
+//   return a - b;
+// }
+// function multiply(a, b) {
+//   return a * b;
+// }
+// const sum = multiply(5, 3);
+// console.log(sum);
+
+// const add = function (a, b) {
+//   return a + b;
+// };
+
+
+
+// const add = (a,b) => a+b
+// console.log(add(2, 2));
+
+// let globalVar = "I am global";
+// function vansh() {
+//   let localVar = "I am local";
+//   console.log(globalVar);
+//   console.log(localVar);
+// }
+// vansh();
+// console.log(globalVar); // ✅ Accessible
+// console.log(localVar);
+
+// function greetUser(name) {
+//   return "Hello," + name + "!";
+  
+// }
+// console.log(greetUser("Vansh"));
+
+
+// function square(num) {
+//   return num * num
+// };
+// console.log(square(""));
+
+// const global = "hi vansh "
+// function hi() {
+//   const local = "hello kartik"
+//   console.log(global);
+//   console.log(local); 
+// }
+// hi();
