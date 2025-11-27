@@ -6,5 +6,9 @@
     };
 
 
+// ===================================Reverse====================================================
 
-    
+function b(v){
+    return v.split('').reverse().join('');
+}
+console.log(b("Hello World!"));
