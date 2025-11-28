@@ -30,3 +30,11 @@ function b(v){
     return Math.max(...v)
 }
 console.log(b([1,2,3,4,5,7,1,1,1,1,23233,213213,2323,231,123231312,]));
+
+
+function num(b){
+  return Math.max(...v)
+}
+console.log(num[1,2,2,1,2,123321,4]);
+
+
