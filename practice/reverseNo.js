@@ -8,7 +8,25 @@
 
 // ===================================Reverse====================================================
 
+// function b(v){
+//     return v.split('').reverse().join('');
+// }
+// console.log(b("Hello World!"));
+
+// function num(b){
+//  return b.split(",")
+// }
+// console.log(num("1,2,3,4,5,6,7,8,9,1o"))
+// ================================================================================================
+
+// function b(v){
+//     return v % 2==0?"EVEN":"ODD"
+// }
+// console.log(b(4));
+
+
+// largest
 function b(v){
-    return v.split('').reverse().join('');
+    return Math.max(...v)
 }
-console.log(b("Hello World!"));
+console.log(b([1,2,3,4,5,7,1,1,1,1,23233,213213,2323,231,123231312,]));
