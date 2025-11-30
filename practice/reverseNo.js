@@ -53,4 +53,12 @@ function reverse(r){
   }
   return rev;
 }
-console.log(reverse("Hello"));
+// console.log(reverse("Hello"));
+function b(v){
+ let rev = "";
+ for(let k = v.length - 1; k >= 0; k--){
+  rev += v[k]
+ }
+  return rev;
+}
+console.log(b("Hello World!"));
