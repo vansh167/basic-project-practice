@@ -37,9 +37,20 @@
 // }
 // console.log(num[1,2,2,1,2,123321,4]);
 
-function haha(b){
-  return b.split('').reverse().join('');
+// function reverse(r){
+//   let rev = "";
+//   for(let i = r.length - 1; i >= 0; i--){
+//     rev += r[i]
+//   }
+//   return rev;
+// }
+// console.log(reverse("Hello"));
+
+function reverse(r){
+  let rev = "";
+  for(let i = r.length-1;i >= 0; i--){
+    rev += r[i]
+  }
+  return rev;
 }
-console.log(haha("HELLO"));
-
-
+console.log(reverse("Hello"));
