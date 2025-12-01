@@ -46,19 +46,28 @@
 // }
 // console.log(reverse("Hello"));
 
-function reverse(r){
-  let rev = "";
-  for(let i = r.length-1;i >= 0; i--){
-    rev += r[i]
-  }
-  return rev;
-}
+// function reverse(r){
+//   let rev = "";
+//   for(let i = r.length-1;i >= 0; i--){
+//     rev += r[i]
+//   }
+//   return rev;
+
 // console.log(reverse("Hello"));
-function b(v){
- let rev = "";
- for(let k = v.length - 1; k >= 0; k--){
-  rev += v[k]
- }
-  return rev;
+// function b(v){
+//  let rev = "";
+//  for(let k = v.length - 1; k >= 0; k--){
+//   rev += v[k]
+//  }
+//   return rev === v;
+// }
+// console.log(b("Hello World!"));
+
+function rev(v){
+  let j = "";
+  for(let b = v.length-1; b >= 0; b--){
+    j += v[i]
+  }
+  return j
 }
-console.log(b("Hello World!"));
+console.log(rev("HI"));
